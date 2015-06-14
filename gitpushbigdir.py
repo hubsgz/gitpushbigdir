@@ -24,6 +24,8 @@ def main():
         elif os.path.isdir(line):
             gitadddir(line)
 
+    commit_and_push()
+
 def gitadddir(dirname):
     '''
         文件夹文件批量 git add
